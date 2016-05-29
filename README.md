@@ -5,7 +5,7 @@
 
 
 
-
+    使用方法:
     //1.新建
     KKImageScroller *sc = [[KKImageScroller alloc] init];
     sc.frame = CGRectMake(0, 0, self.view.frame.size.width, 150);
