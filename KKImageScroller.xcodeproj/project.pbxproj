@@ -26,7 +26,6 @@
 		B9EF71DC1CFAD60600BD3074 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EF71CB1CFAD60600BD3074 /* NSObject+MJKeyValue.m */; };
 		B9EF71DD1CFAD60600BD3074 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EF71CD1CFAD60600BD3074 /* NSObject+MJProperty.m */; };
 		B9EF71DE1CFAD60600BD3074 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EF71CF1CFAD60600BD3074 /* NSString+MJExtension.m */; };
-		B9EF71DF1CFAD60600BD3074 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EF71D11CFAD60600BD3074 /* UIImage+Extension.m */; };
 		B9EF71E01CFAD60600BD3074 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EF71D31CFAD60600BD3074 /* UIView+Extension.m */; };
 		B9EF71E51CFAD67F00BD3074 /* KKImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EF71E41CFAD67F00BD3074 /* KKImageModel.m */; };
 		B9EF71E81CFAD6BD00BD3074 /* KKImageScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EF71E71CFAD6BD00BD3074 /* KKImageScroller.m */; };
@@ -108,8 +107,6 @@
 		B9EF71CD1CFAD60600BD3074 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		B9EF71CE1CFAD60600BD3074 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		B9EF71CF1CFAD60600BD3074 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		B9EF71D01CFAD60600BD3074 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		B9EF71D11CFAD60600BD3074 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		B9EF71D21CFAD60600BD3074 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		B9EF71D31CFAD60600BD3074 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		B9EF71E31CFAD67F00BD3074 /* KKImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKImageModel.h; sourceTree = "<group>"; };
@@ -259,8 +256,6 @@
 			children = (
 				B9EF71F01CFADB5F00BD3074 /* SDWebImage */,
 				B9EF71B81CFAD60600BD3074 /* MJExtension */,
-				B9EF71D01CFAD60600BD3074 /* UIImage+Extension.h */,
-				B9EF71D11CFAD60600BD3074 /* UIImage+Extension.m */,
 				B9EF71D21CFAD60600BD3074 /* UIView+Extension.h */,
 				B9EF71D31CFAD60600BD3074 /* UIView+Extension.m */,
 			);
@@ -493,7 +488,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9EF71DF1CFAD60600BD3074 /* UIImage+Extension.m in Sources */,
 				B9EF721A1CFADB5F00BD3074 /* SDWebImagePrefetcher.m in Sources */,
 				B9EF71D91CFAD60600BD3074 /* MJPropertyType.m in Sources */,
 				B9EF721E1CFADB5F00BD3074 /* UIImage+WebP.m in Sources */,
@@ -753,6 +747,7 @@
 				B9EF71AD1CFAD57E00BD3074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9EF71AE1CFAD57E00BD3074 /* Build configuration list for PBXNativeTarget "KKImageScrollerTests" */ = {
 			isa = XCConfigurationList;
@@ -761,6 +756,7 @@
 				B9EF71B01CFAD57E00BD3074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9EF71B11CFAD57E00BD3074 /* Build configuration list for PBXNativeTarget "KKImageScrollerUITests" */ = {
 			isa = XCConfigurationList;
@@ -769,6 +765,7 @@
 				B9EF71B31CFAD57E00BD3074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
